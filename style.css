@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1100px;
+}
+
+header {
+    height: 85px;
+    background: #067fc0;
+}
+
+.container {
+    display: flex;
+    align-items: center;      /* Centre verticalement */
+    width: 1100px;
+    margin: auto;
+    height: 100%;
+}
+
+.logo {
+    height: 75px;
+    margin-right: 27px;
+    cursor:pointer;
+}
+
+.titres {
+    padding: 15px 27px;
+    color: #FFEAEA;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    border-top: 0.1px solid grey;
+}
+
+li {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.quantite, #quantite {
+    float: right;
+    margin-left: auto;
+    justify-content: center;
+    width: 60px;
+}
+
+.prixkilo, #prixkilo {
+    float: right;
+    justify-content: center;
+    width: 140px;
+}
+
+.prix, #prix {
+    float: right;
+    justify-content: center;
+    width: 60px;
+}
+
+.poids, #poids {
+    float: right;
+    justify-content: center;
+    width: 50px;
+}
+
+.numero, #numero {
+    width: 50px;
+    font-size: 22px;
+}
+
+.adresse, #adresse{
+    width: 210px;
+}
+
+.sort-button {
+    height: 20px;
+    width: 20px;
+    background: grey;
+    margin-left: 10px;
+}
+
+.sort-button:hover {
+    background: #001;
+    cursor: pointer;
+}
+
+.titres:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.categorie:hover {
+    cursor: pointer;
+    color:red;
+}
+
+.categorie {
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
